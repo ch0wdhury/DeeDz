@@ -21,7 +21,8 @@ html, body {
 a {
 	text-decoration: none;
 	color: #90918B;
-	opacity: .5;
+	opacity: .7;
+	font-size: 14px;
 	transition: .5s ease;
 }
 a:hover {
@@ -139,6 +140,8 @@ body {
     -webkit-animation-name: fade;
     -webkit-animation-iteration-count: infinite;
     -webkit-animation-duration: 20s;
+    -webkit-animation-timing-function: ease-in-out;
+    -webkit-animation-fill-mode: forwards;
     animation-name: fade;
     animation-iteration-count: infinite;
     animation-duration: 20s;
