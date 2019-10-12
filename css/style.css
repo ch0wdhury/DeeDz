@@ -21,9 +21,7 @@ html, body {
 a {
 	text-decoration: none;
 	color: #90918B;
-	margin-top: 40px;
-	margin-right: 100px;
-	margin-bottom: -40px;
+	opacity: .5;
 	transition: .5s ease;
 }
 a:hover {
@@ -35,7 +33,7 @@ body {
 	background-position: top center;
 	background-size: cover;
 	background-repeat: no-repeat;
-	padding: 100px 0;
+	padding: 30px 0;
 }
 
 /* Body Related Essential Codes */
@@ -61,13 +59,22 @@ body {
 /* Text Contents Here */
 .custom-card {
 	border-radius: 25px;
-	padding: 40px 0;
+	padding: 5px 0;
+	-webkit-box-shadow: 0px 9px 50px -11px rgba(0,0,0,0.9);
+	-moz-box-shadow: 0px 9px 50px -11px rgba(0,0,0,0.9);
+	box-shadow: 0px 9px 50px -11px rgba(0,0,0,0.9);
 }
 .main-card-content {
 	border-radius: 15px;
 	margin: 20px;
 	padding: 20px 10px;
 	background-color: #FAFAFA;
+	outline: none;
+	border: none;
+	-webkit-box-shadow: 0px 9px 20px -6px rgba(0,0,0,0.2);
+	-moz-box-shadow: 0px 9px 20px -6px rgba(0,0,0,0.2);
+	box-shadow: 0px 9px 20px -6px rgba(0,0,0,0.2);
+
 }
 .text-container h1 {
 	font-family: 'Lobster', cursive;
@@ -107,6 +114,7 @@ body {
 }
 .app-download-container a {
 	margin: 0 auto;
+	opacity: 1;
 }
 /* Text Contents Here */
 /* Iphone Section Here */
@@ -115,18 +123,18 @@ body {
 }
 .iphone-shape {
 	position: absolute;
-	top: 0;
+	top: 12px;
 	width: 100%;
 	z-index: 99999;
 	display: block;
 }
 .iphone-screen img {
     position:absolute;
-    top: 14px;
-    right: 0;
+    top: 19px;
+    right: -1px;
     left: 0;
     margin: 0 auto;
-    width: 90%;
+    width: 85%;
     z-index: 99;
     -webkit-animation-name: fade;
     -webkit-animation-iteration-count: infinite;
@@ -147,5 +155,10 @@ body {
     -webkit-animation-delay: -7s;
 }
 /* Iphone Section Here */
+
+ul {
+	margin-bottom: -3px;
+	margin-right: 40px;
+}
 
 /* Main Content Area Ends Here */
