@@ -105,6 +105,9 @@ body {
 	margin: 20px 0;
 	color: #90918B;
 }
+.app-download-container a {
+	margin: 0 auto;
+}
 /* Text Contents Here */
 /* Iphone Section Here */
 .image_container {
