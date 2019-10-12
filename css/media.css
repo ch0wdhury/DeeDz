@@ -1,0 +1,174 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+	a {
+		margin-top: 0px;
+		margin-bottom: -5px;
+		margin-right: 60px;
+		font-size: 14px;
+	}
+	body {
+		padding: 20px 0;
+	}
+	.iphone-shape {
+		top: 5px;
+	}
+	.iphone-screen img {
+	    top: 13px;
+	}
+	.custom-card {
+		padding: 10px 0;
+	}
+	.main-card-content {
+		margin: 10px;
+		padding: 10px 5px;
+		margin-top: 360px;
+	}
+	.text-container h1 {
+		font-size: 40px;
+	}
+	.text-container p {
+		font-size: 14px;
+	}
+	.text-container h4 {
+		font-size: 14px;
+		margin: 15px 0;
+	}
+	.text-container h3 {
+		font-size: 14px;
+		margin: 5px 0;
+	}
+	.text-container h3 span {
+		font-size: 25px;
+	}
+	.app-download-container h4 {
+		font-size: 14px;
+		margin: 15px 0;
+	}
+	.app-download-container img {
+		width: 70%;
+		margin-bottom: 10px;
+	}
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+	a {
+		margin-top: 5px;
+		margin-bottom: -15px;
+		margin-right: 60px;
+		font-size: 14px;
+	}
+	body {
+		padding: 20px 0;
+	}
+	.iphone-shape {
+		top: 5px;
+	}
+	.iphone-screen img {
+	    top: 16px;
+	}
+	.custom-card {
+		padding: 20px 0;
+	}
+	.main-card-content {
+		margin: 10px;
+		padding: 10px 5px;
+		margin-top: 500px;
+	}
+	.text-container h1 {
+		font-size: 50px;
+	}
+	.text-container p {
+		font-size: 16px;
+	}
+	.text-container h4 {
+		font-size: 20px;
+		margin: 15px 0;
+	}
+	.text-container h3 {
+		font-size: 20px;
+		margin: 5px 0;
+	}
+	.text-container h3 span {
+		font-size: 35px;
+	}
+	.app-download-container h4 {
+		font-size: 20px;
+		margin: 15px 0;
+	}
+	.app-download-container img {
+		width: 50%;
+		margin-bottom: 10px;
+	}
+}
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+	a {
+		margin-top: 15px;
+		margin-bottom: -20px;
+		margin-right: 60px;
+		font-size: 14px;
+	}
+	body {
+		padding: 50px 0;
+	}
+	.iphone-shape {
+		top: 5px;
+	}
+	.iphone-screen img {
+	    top: 15px;
+	}
+	.custom-card {
+		padding: 20px 0;
+	}
+	.main-card-content {
+		margin: 10px;
+		padding: 10px 5px;
+	}
+	.text-container h1 {
+		font-size: 50px;
+	}
+	.text-container p {
+		font-size: 16px;
+	}
+	.text-container h4 {
+		font-size: 18px;
+		margin: 15px 0;
+	}
+	.text-container h3 {
+		font-size: 18px;
+		margin: 5px 0;
+	}
+	.text-container h3 span {
+		font-size: 35px;
+	}
+	.app-download-container h4 {
+		font-size: 18px;
+		margin: 15px 0;
+	}
+	.app-download-container img {
+		width: 50%;
+		margin-bottom: 10px;
+	}
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	a {
+		margin-top: 30px;
+	}
+	body {
+		padding: 50px 0;
+	}
+	.iphone-shape {
+		top: -9px;
+	}
+	.iphone-screen img {
+	    top: 5px;
+	}
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}

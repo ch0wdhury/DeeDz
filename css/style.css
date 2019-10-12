@@ -1,0 +1,148 @@
+/* Fonts Import */
+@font-face {
+  font-family: myriad-pro-semibold;
+  src: url(../fonts/myriad-pro-semibold.ttf);
+}
+@font-face {
+  font-family: myriad-pro-regular;
+  src: url(../fonts/myriad-pro-regular.ttf);
+}
+/* Fonts Import */
+/* Body Related Essential Codes */
+html, body {
+	overflow-x: hidden;
+	margin: 0;
+	padding: 0;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+a {
+	text-decoration: none;
+	color: #90918B;
+	margin-top: 40px;
+	margin-right: 100px;
+	margin-bottom: -40px;
+	transition: .5s ease;
+}
+a:hover {
+	text-decoration: underline;
+	color: #90918B;
+}
+body {
+	background-image: url(../images/gradient-bg-1.png);
+	background-position: top center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 100px 0;
+}
+
+/* Body Related Essential Codes */
+/* Keyframe Animation for Fade Effect */
+@-webkit-keyframes fade {
+    0% {opacity: 0;}
+    20% {opacity: 1;}
+    33% {opacity: 1;}
+    53% {opacity: 0;}
+    100% {opacity: 0;}
+}
+@keyframes fade {
+    0% {opacity: 0;}
+    20% {opacity: 1;}
+    33% {opacity: 1;}
+    53% {opacity: 0;}
+    100% {opacity: 0;}
+}
+/* Keyframe Animation for Fade Effect */
+
+/* Main Content Area Starts Here */
+
+/* Text Contents Here */
+.custom-card {
+	border-radius: 25px;
+	padding: 40px 0;
+}
+.main-card-content {
+	border-radius: 15px;
+	margin: 20px;
+	padding: 20px 10px;
+	background-color: #FAFAFA;
+}
+.text-container h1 {
+	font-family: 'Lobster', cursive;
+	font-size: 70px;
+	line-height: 1;
+	margin: 0;
+	text-shadow: 2px 2px rgba(0, 0, 0, 0.4);
+}
+.text-container p {
+	font-family: 'Lobster', cursive;
+	font-size: 18px;
+	padding: 0;
+	line-height: 1;
+	margin: 0;
+	text-shadow: 2px 2px rgba(0, 0, 0, 0.1);
+}
+.text-container h4 {
+	font-family: myriad-pro-regular;
+	font-size: 22px;
+	margin: 20px 0;
+	color: #90918B;
+}
+.text-container h3 {
+	font-family: myriad-pro-semibold;
+	color: #000;
+	font-size: 22px;
+	margin: 10px 0;
+}
+.text-container h3 span {
+	font-size: 40px;
+}
+.app-download-container h4 {
+	font-family: myriad-pro-regular;
+	font-size: 22px;
+	margin: 20px 0;
+	color: #90918B;
+}
+/* Text Contents Here */
+/* Iphone Section Here */
+.image_container {
+	position: relative;
+}
+.iphone-shape {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	z-index: 99999;
+	display: block;
+}
+.iphone-screen img {
+    position:absolute;
+    top: 14px;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    width: 90%;
+    z-index: 99;
+    -webkit-animation-name: fade;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-duration: 20s;
+    animation-name: fade;
+    animation-iteration-count: infinite;
+    animation-duration: 20s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+.screen-3 {
+	-webkit-animation-delay: -13s;
+}
+.screen-2 {
+    -webkit-animation-delay: 0s;
+}
+.screen-1 {
+    -webkit-animation-delay: -7s;
+}
+/* Iphone Section Here */
+
+/* Main Content Area Ends Here */
